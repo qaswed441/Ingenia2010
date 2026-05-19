@@ -1,0 +1,869 @@
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Ingenia 2010</title>
+
+  <!-- Favicon (embedded as data URI to avoid path issues) -->
+<link rel="icon" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+PHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTIiIGZpbGw9IiMxYTNhNmMiLz48cG9seWdvbiBwb2ludHM9IjM4LDQgMTgsMzYgMzAsMzYgMjYsNjAgNDYsMjggMzQsMjgiIGZpbGw9IiM0YTkwZDkiLz48L3N2Zz4=" type="image/svg+xml">
+
+<!-- Google verification -->
+<meta name="google-site-verification" content="xWa_cybqnFHrGsxp3n_A_vxfwdTIdK8jqyZ03Z87NNA" />
+
+<!-- SEO -->
+<title>Industrial Engineering in Málaga | Projects, Legalizations and Photovoltaics – Ingenia 2010</title>
+
+<meta name="description" content="Ingenia 2010 · Industrial engineering firm in Málaga. MV/LV electrical projects, transformer substations, photovoltaic installations, gas, HVAC, legalizations, energy certificates and technical management. Over 10 years of experience and 780 projects completed.">
+
+<meta name="keywords" content="industrial engineering Málaga, MV LV electrical projects, transformer substations CT, photovoltaic installations Málaga, legalization of installations, electrical certificates, electric vehicle charging points, energy efficiency certificates, technical management, industrial expert reports, gas projects, industrial HVAC, ICT telecommunications, civil works, industrial warehouses">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,600;0,700;1,400&family=Barlow+Condensed:wght@400;500;700&display=swap" rel="stylesheet">
+
+<!-- Colors and styles -->
+  <style>
+  :root {
+    --blue-dark:  #1a3a6c;
+    --blue-mid:   #2a6aaa;
+    --blue-light: #4a90d9;
+    --blue-pale:  #e8f2fc;
+    --grey-dark:  #3a3e42;
+    --grey-mid:   #6e7478;
+    --grey-light: #f4f6f8;
+    --white:      #ffffff;
+  }
+ /* 👇 ADD THIS HERE */
+.visually-hidden {
+  position: absolute;
+  left: -9999px;
+}
+  html { scroll-behavior: smooth; }
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Barlow', sans-serif;
+    color: var(--grey-dark);
+    background: #cdd4dc;
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+
+  /* ─── PAGE SHELL ─── */
+  .page {
+    width: 210mm;
+    margin: 16px auto;
+    background: var(--white);
+    box-shadow: 0 4px 28px rgba(0,0,0,.20);
+    overflow: hidden;
+    position: relative;
+  }
+
+  @media print {
+    body { background: none; }
+    .page { margin: 0; box-shadow: none; page-break-after: always; }
+  }
+
+  /* ─── COVER ─── */
+  .cover {
+    height: 297mm;
+    background: var(--blue-dark);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .cover-bg {
+    position: absolute; inset: 0;
+    background-image: url('img/torre-electrica.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: .12;
+  }
+  .cover-inner {
+    position: relative; z-index: 1;
+    text-align: center; padding: 40px;
+    display: flex; flex-direction: column; align-items: center;
+  }
+  .cover-logo { width: 280px; margin-bottom: 32px; filter: drop-shadow(0 4px 12px rgba(0,0,0,.4)); }
+  .cover-rule { width: 60px; height: 3px; background: var(--blue-light); margin: 0 auto 22px; border-radius: 2px; }
+  .cover-tagline {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 12px; font-weight: 500;
+    letter-spacing: 4px; text-transform: uppercase;
+    color: rgba(255,255,255,.6); margin-bottom: 44px;
+  }
+  .cover-card {
+    background: rgba(255,255,255,.09);
+    border: 1px solid rgba(255,255,255,.18);
+    border-radius: 8px;
+    padding: 22px 36px;
+    text-align: left;
+    backdrop-filter: blur(4px);
+    min-width: 320px;
+  }
+  .cover-card .name { font-weight: 700; font-size: 15px; color: var(--white); margin-bottom: 10px; }
+  .cover-card .row { font-size: 12px; color: rgba(255,255,255,.8); line-height: 2; }
+  .cover-card .row a { color: var(--blue-light); text-decoration: none; }
+  .cover-bottom { position: absolute; bottom: 0; left: 0; right: 0; height: 5px;
+    background: linear-gradient(90deg, var(--blue-mid), var(--blue-light), var(--blue-mid)); }
+
+  /* ─── INNER PAGES ─── */
+  .inner { min-height: 297mm; display: flex; flex-direction: column; }
+
+  /* Header */
+  .ph {
+    background: var(--blue-dark);
+    padding: 15px 32px;
+    display: flex; align-items: center; justify-content: space-between;
+    flex-shrink: 0;
+  }
+  .ph img { height: 36px; }
+  .ph-contact { text-align: right; font-size: 13px; color: rgba(255,255,255,.68); line-height: 1.7; }
+  .ph-contact strong { color: var(--white); font-size: 13.5px; display: block; }
+
+  /* Body */
+  .pb { padding: 24px 32px 20px; flex: 1; }
+
+  /* Section heading */
+  .sh { display: flex; align-items: center; gap: 10px; margin-bottom: 16px; }
+  .sh-bar { width: 4px; height: 30px; border-radius: 2px;
+    background: linear-gradient(180deg, var(--blue-mid), var(--blue-light)); flex-shrink: 0; }
+  .sh h2 { font-family: 'Barlow Condensed', sans-serif; font-size: 28px; font-weight: 700;
+    color: var(--blue-dark); line-height: 1; }
+  .sh h2 span { display: block; font-size: 13px; font-weight: 500; letter-spacing: 2.5px;
+    text-transform: uppercase; color: var(--blue-mid); margin-top: 3px; }
+
+  /* Two-column layout (left=photo strip, right=content) */
+  .split { display: flex; gap: 0; flex: 1; }
+  .photo-strip {
+    width: 90px; flex-shrink: 0;
+    display: flex; flex-direction: column;
+  }
+  .photo-strip .ps-img {
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    min-height: 80px;
+  }
+  .photo-strip .ps-img::after {
+    content: '';
+    position: absolute; inset: 0;
+    background: rgba(26,58,108,.55);
+  }
+  .content-col { flex: 1; padding: 24px 28px 20px 20px; }
+
+  /* Right photo strip variant */
+  .split-right .photo-strip { order: 2; }
+  .split-right .content-col { order: 1; padding: 24px 20px 20px 28px; }
+
+  /* Stats row */
+  .stats { display: grid; grid-template-columns: repeat(3,1fr); gap: 10px; margin: 14px 0; }
+  .stat { background: var(--blue-dark); border-radius: 6px; padding: 12px; text-align: center; color: var(--white); }
+  .stat .n { font-family: 'Barlow Condensed',sans-serif; font-size: 30px; font-weight: 700;
+    color: var(--blue-light); line-height: 1; }
+  .stat .l { font-size: 11px; color: rgba(255,255,255,.65); text-transform: uppercase;
+    letter-spacing: 1px; margin-top: 3px; }
+
+  /* Callout */
+  .callout { background: var(--blue-pale); border-left: 4px solid var(--blue-mid);
+    border-radius: 0 4px 4px 0; padding: 13px 18px; font-size: 13.5px;
+    color: var(--blue-dark); margin: 12px 0; line-height: 1.7; }
+
+  /* Process steps */
+  .steps { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 10px; }
+  .step { background: var(--grey-light); border-radius: 5px; padding: 10px 12px; }
+  .step strong { font-size: 14px; color: var(--blue-dark); display: block; margin-bottom: 4px; }
+  .step span { font-size: 13px; color: #555; line-height: 1.55; }
+
+  .badge { display: inline-block; background: var(--blue-dark); color: var(--white);
+    font-size: 11.5px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px;
+    padding: 5px 12px; border-radius: 3px; margin-bottom: 9px; margin-top: 5px; }
+
+  /* Badge-link dynamic */
+  .badge-link {
+    display: inline-block; background: var(--blue-mid); color: var(--white);
+    font-size: 11.5px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px;
+    padding: 5px 12px; border-radius: 3px; margin-bottom: 9px; margin-top: 5px;
+    margin-left: 6px; text-decoration: none; cursor: pointer;
+    transition: background .2s, transform .15s;
+  }
+  .badge-link:hover { background: var(--blue-light); transform: translateY(-1px); }
+
+  /* Service grid */
+  .sg { display: grid; grid-template-columns: 1fr 1fr; gap: 2px 10px; margin-bottom: 10px; }
+  .si { display: flex; gap: 6px; font-size: 13px; color: #444; padding: 5px 0;
+    border-bottom: 1px solid #eef0f3; line-height: 1.45; align-items: flex-start; }
+  .si .arr { color: var(--blue-mid); font-weight: 700; flex-shrink: 0; margin-top: 0; font-size: 14px; }
+
+  /* Project list */
+  .pl { list-style: none; }
+  .pl li { display: flex; gap: 7px; padding: 6px 0; font-size: 13px; line-height: 1.6;
+    color: #444; border-bottom: 1px solid #eef0f3; align-items: flex-start; }
+  .pl li .dot { width: 5px; height: 5px; border-radius: 50%; background: var(--blue-mid);
+    flex-shrink: 0; margin-top: 5px; }
+
+  /* Client boxes */
+  .clients { display: grid; grid-template-columns: repeat(3,1fr); gap: 8px; margin-top: 8px; }
+  .client { background: var(--blue-pale); border-radius: 5px; padding: 9px 11px; text-align: center; }
+  .client strong { font-size: 14px; color: var(--blue-dark); display: block; margin-bottom: 3px; }
+  .client span { font-size: 12px; color: var(--grey-mid); }
+
+  /* Why-us checklist */
+  .why { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+  .why-item { display: flex; gap: 7px; font-size: 13.5px; color: #444; align-items: flex-start; }
+  .why-item .chk { color: var(--blue-mid); font-weight: 700; font-size: 16px; flex-shrink: 0; line-height: 1.1; }
+
+  /* Contact cards */
+  .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; margin-top: 8px; }
+  .cc { border-radius: 8px; overflow: hidden; }
+  .cc.primary { background: var(--blue-dark); }
+  .cc.secondary { background: var(--grey-light); border: 1px solid #dde3ea; }
+  .cc-head { padding: 11px 16px; font-family: 'Barlow Condensed',sans-serif;
+    font-size: 13px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; }
+  .cc.primary .cc-head { background: rgba(0,0,0,.2); color: var(--blue-light); }
+  .cc.secondary .cc-head { background: #dde3ea; color: var(--grey-mid); }
+  .cc-body { padding: 15px 17px; }
+  .cc-name { font-size: 17px; font-weight: 700; margin-bottom: 10px; }
+  .cc.primary .cc-name { color: var(--white); }
+  .cc.secondary .cc-name { color: var(--blue-dark); }
+  .cc-row { display: flex; align-items: center; gap: 7px; font-size: 14px; margin-bottom: 6px; }
+  .cc.primary .cc-row { color: rgba(255,255,255,.85); }
+  .cc.secondary .cc-row { color: var(--grey-dark); }
+  .cc-row .ic { font-size: 15px; flex-shrink: 0; }
+  .cc.primary .cc-row a { color: var(--blue-light); text-decoration: none; }
+  .cc.secondary .cc-row a { color: var(--blue-mid); text-decoration: none; }
+
+  /* Why-us box */
+  .why-box { margin-top: 22px; background: var(--grey-light); border-radius: 7px; padding: 20px 24px; }
+  .why-box h3 { font-family: 'Barlow Condensed',sans-serif; font-size: 18px; font-weight: 700;
+    color: var(--blue-dark); margin-bottom: 14px; }
+
+  /* Divider */
+  .div { height: 1px; background: linear-gradient(90deg,var(--blue-mid),transparent);
+    margin: 12px 0; opacity: .2; }
+
+  /* Body text */
+  .bt { font-size: 14px; line-height: 1.85; color: #444; }
+  .bt p { margin-bottom: 7px; }
+  .bt strong { color: var(--blue-dark); }
+
+  /* Footer */
+  .pf { background: var(--grey-light); border-top: 1px solid #dde3ea;
+    padding: 8px 32px; display: flex; justify-content: space-between;
+    align-items: center; font-size: 11px; color: var(--grey-mid); flex-shrink: 0; }
+  .pf a { color: var(--blue-mid); text-decoration: none; }
+
+  /* Back strip */
+  .back { height: 100px; background: var(--blue-dark); display: flex;
+    align-items: center; justify-content: center; position: relative; overflow: hidden; }
+  .back::before { content: ''; position: absolute; inset: 0;
+    background: repeating-linear-gradient(45deg,transparent,transparent 20px,
+      rgba(255,255,255,.03) 20px,rgba(255,255,255,.03) 40px); }
+  .back p { position: relative; font-family: 'Barlow Condensed',sans-serif;
+    font-size: 11px; letter-spacing: 3px; text-transform: uppercase; color: rgba(255,255,255,.45); }
+  /* QR cover */
+  .cover-qr {
+    position: relative; z-index: 1;
+    margin-top: 36px;
+    display: flex; flex-direction: column; align-items: center; gap: 10px;
+  }
+  .cover-qr img {
+    width: 100px; height: 100px;
+    border-radius: 8px;
+    border: 3px solid rgba(255,255,255,.25);
+    background: white;
+    padding: 4px;
+    filter: drop-shadow(0 4px 10px rgba(0,0,0,.35));
+  }
+  .cover-qr p {
+    font-size: 9.5px; letter-spacing: 2px; text-transform: uppercase;
+    color: rgba(255,255,255,.5);
+    font-family: 'Barlow Condensed', sans-serif;
+  }
+</style>
+</head>
+<body>
+
+<style>
+.lang-switch{
+position:fixed;top:15px;right:15px;z-index:9999;
+background:#1a3a6c;color:white;padding:10px;border-radius:8px;
+box-shadow:0 2px 8px rgba(0,0,0,.25)
+}
+.lang-switch select{padding:6px;border-radius:4px}
+</style>
+<div class="lang-switch" aria-label="Language selector">
+  🌐 Language / Idioma:
+  <select id="langSelect" aria-label="Select language">
+    <option value="es">Español</option>
+    <option value="en">English</option>
+  </select>
+</div>
+
+🌐 Language / Idioma:
+<select onchange="translatePage(this.value)">
+<option value="es">Español</option>
+<option value="en" selected>English</option>
+</select>
+</div>
+
+
+
+<!-- H1 hidden only for SEO -->
+<h1 class="visually-hidden">Industrial Engineering in Málaga · Projects, Installations and Legalizations</h1>
+  
+<!-- ══════════════════════════════════════════
+     COVER
+══════════════════════════════════════════ -->
+<div class="page">
+  <div class="cover">
+    <div class="cover-bg"></div>
+    <div class="cover-inner">
+      <img class="cover-logo" src="img/logo.jpg" alt="Ingenia 2010">
+      <div class="cover-rule"></div>
+      <div class="cover-tagline">Industrial Engineering Studio</div>
+      <div class="cover-card">
+        <div class="name">Málaga Branch</div>
+        <div class="row">
+          <strong>Andrés Manuel Medina Rodríguez</strong>
+          Technical Representative<br>
+          📞 686 668 924<br>
+          ✉️ <a href="mailto:Andres.Medina.email@gmail.com">Andres.Medina.email@gmail.com</a><br>
+          📍 Avenida de los Perales 8, Mijas, Málaga, Spain
+        </div>
+      </div>
+    </div>
+    <div class="cover-qr">
+      <img src="img/QR.png" alt="Ingenia 2010 website QR">
+      <p>Visit our website</p>
+    </div>
+    <div class="cover-bottom"></div>
+  </div>
+</div>
+
+
+<!-- ══════════════════════════════════════════
+     PAGE 1 — WHO WE ARE
+══════════════════════════════════════════ -->
+<div class="page">
+  <div class="inner">
+    <div class="ph">
+      <img src="img/logo.jpg" alt="Ingenia 2010">
+      <div class="ph-contact">
+        <strong>Málaga Branch</strong>
+        Andrés M. Medina Rodríguez · 📞 686 668 924 · ✉️ <a href="mailto:Andres.Medina.email@gmail.com">Andres.Medina.email@gmail.com</a>
+      </div>
+    </div>
+
+    <div class="split">
+      <!-- Photo strip left -->
+      <div class="photo-strip">
+        <div class="ps-img" style="background-image:url('img/subestacion.jpg');"></div>
+        <div class="ps-img" style="background-image:url('img/cuadro-electrico.jpg');"></div>
+        <div class="ps-img" style="background-image:url('img/obra-construccion.jpg');"></div>
+      </div>
+
+      <!-- Content -->
+      <div class="content-col">
+        <div class="sh">
+          <div class="sh-bar"></div>
+          <h2>Who are we?<span>Studio presentation</span></h2>
+        </div>
+
+<div class="bt">
+  <p><strong>Ingenia 2010</strong> is an industrial engineering studio with extensive experience in the development and legalization of technical installations.</p>
+
+  <p>At the Málaga branch we offer a close and agile service where the client deals directly with the engineer responsible for the project, ensuring fast decision-making and full control at every stage.</p>
+
+  <p>We have experience in electrical and energy installations and especially in photovoltaic energy projects, providing technical solutions tailored to each client and focused on efficiency and real feasibility.</p>
+
+  <p>We work with both companies and private clients, offering everything from one-off projects to ongoing technical collaboration.</p>
+</div>
+
+        <div class="stats">
+          <div class="stat"><div class="n">+10</div><div class="l">Years of experience</div></div>
+          <div class="stat"><div class="n">250</div><div class="l">Clients served</div></div>
+          <div class="stat"><div class="n">780</div><div class="l">Projects completed</div></div>
+        </div>
+
+        <div class="callout">
+          Ingenia 2010 carries out comprehensive projects, technical reports, project management, electrical certificates, legalizations, safety and health plans, MV/LV electrical installations, transformer substations, photovoltaics, wind, HVAC, plumbing, energy efficiency certificates, charging points, and much more.
+        </div>
+
+        <div class="sh" style="margin-top:16px">
+          <div class="sh-bar"></div>
+          <h2>Working methodology<span>How we do it</span></h2>
+        </div>
+        <div class="steps">
+          <div class="step"><strong>① Initial technical analysis</strong><span>On-site visit, needs assessment and feasibility study.</span></div>
+          <div class="step"><strong>② Personalized proposal</strong><span>Technical and financial quotation with a detailed schedule.</span></div>
+          <div class="step"><strong>③ Project management</strong><span>Execution, technical follow-up and multidisciplinary coordination.</span></div>
+          <div class="step"><strong>④ Legalization and delivery</strong><span>Processing with competent authorities and official documentation.</span></div>
+        </div>
+
+        <div class="sh" style="margin-top:16px">
+          <div class="sh-bar"></div>
+          <h2>Global reach, Local knowledge<span>International presence</span></h2>
+        </div>
+        <div class="bt">
+          <p>Although our roots are deeply linked to Jaén, our technical capacity has no borders. We have exported our know‑how to demanding international environments in countries such as <strong>Equatorial Guinea, Burkina Faso and Benin</strong>, successfully adapting to different regulatory frameworks and sectors: Industrial and Agri‑food, Hospital and Healthcare, and Building and Services.</p>
+        </div>
+
+        <div class="callout" style="margin-top:10px">
+          <strong>Our philosophy:</strong> We do not believe in oversized solutions. Our goal is to achieve technical excellence through balance: sufficient resources and optimized costs. We work with honesty as our banner, always seeking the smartest solution so that your investment is profitable, safe and efficient.
+        </div>
+      </div>
+    </div>
+
+    <div class="pf">
+      <span>Ingeniería y Sistemas 2010 S.L. · Services Dossier</span>
+      <span><a href="https://www.ingenia2010.es">www.ingenia2010.es</a></span>
+    </div>
+  </div>
+</div>
+
+
+<!-- ══════════════════════════════════════════
+     PAGE 2 — SERVICES I
+══════════════════════════════════════════ -->
+<div class="page">
+  <div class="inner">
+    <div class="ph">
+      <img src="img/logo.jpg" alt="Ingenia 2010">
+      <div class="ph-contact">
+        <strong>Málaga Branch</strong>
+        Andrés M. Medina Rodríguez · 📞 686 668 924 · ✉️ <a href="mailto:Andres.Medina.email@gmail.com">Andres.Medina.email@gmail.com</a>
+      </div>
+    </div>
+
+    <div class="split">
+      <div class="photo-strip">
+        <div class="ps-img" style="background-image:url('img/torre-electrica.jpg');"></div>
+        <div class="ps-img" style="background-image:url('img/fotovoltaica-aerogenerador.jpg');"></div>
+        <div class="ps-img" style="background-image:url('img/grua-construccion.jpg');"></div>
+      </div>
+
+      <div class="content-col">
+        <div class="sh">
+          <div class="sh-bar"></div>
+          <h2>What can we do for you?<span>Industrial engineering · Services I</span></h2>
+        </div>
+
+        <span class="badge">Electrical and energy installations</span>
+        <div class="sg">
+          <div class="si"><span class="arr">→</span>Medium and low voltage electrical installation projects</div>
+          <div class="si"><span class="arr">→</span>Photovoltaic and wind installation projects</div>
+          <div class="si"><span class="arr">→</span>Transformer substation projects</div>
+          <div class="si"><span class="arr">→</span>Public lighting projects</div>
+          <div class="si"><span class="arr">→</span>Generator installation projects</div>
+          <div class="si"><span class="arr">→</span>Electric vehicle charging points</div>
+          <div class="si"><span class="arr">→</span>Energy performance certificates for buildings</div>
+          <div class="si"><span class="arr">→</span>Energy efficiency studies for large companies</div>
+        </div>
+
+        <div class="div"></div>
+        <span class="badge">Civil works and building</span>
+        <div class="sg">
+          <div class="si"><span class="arr">→</span>Industrial warehouse construction projects</div>
+          <div class="si"><span class="arr">→</span>Management and planning of installations and urbanization</div>
+          <div class="si"><span class="arr">→</span>Planning of logistics and business parks</div>
+          <div class="si"><span class="arr">→</span>Building installation projects</div>
+          <div class="si"><span class="arr">→</span>Educational and sports infrastructure projects</div>
+          <div class="si"><span class="arr">→</span>Assisted and public building projects</div>
+          <div class="si"><span class="arr">→</span>Structural projects (concrete, steel and mixed)</div>
+          <div class="si"><span class="arr">→</span>Parking projects · Site management</div>
+        </div>
+
+        <div class="div"></div>
+        <span class="badge">Gas, thermal and fluids</span>
+        <div class="sg">
+          <div class="si"><span class="arr">→</span>LPG storage installation projects</div>
+          <div class="si"><span class="arr">→</span>Gas reception installation projects (mains gas)</div>
+          <div class="si"><span class="arr">→</span>Thermal installation projects in buildings</div>
+          <div class="si"><span class="arr">→</span>Petroleum storage installations</div>
+          <div class="si"><span class="arr">→</span>Boiler and pressure equipment projects</div>
+          <div class="si"><span class="arr">→</span>Compressed air installation projects</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="pf">
+      <span>Ingeniería y Sistemas 2010 S.L. · Services Dossier</span>
+      <span><a href="https://www.ingenia2010.es">www.ingenia2010.es</a></span>
+    </div>
+  </div>
+</div>
+
+
+<!-- ══════════════════════════════════════════
+     PAGE 3 — SERVICES II
+══════════════════════════════════════════ -->
+<div class="page">
+  <div class="inner">
+    <div class="ph">
+      <img src="img/logo.jpg" alt="Ingenia 2010">
+      <div class="ph-contact">
+        <strong>Málaga Branch</strong>
+        Andrés M. Medina Rodríguez · 📞 686 668 924 · ✉️ <a href="mailto:Andres.Medina.email@gmail.com">Andres.Medina.email@gmail.com</a>
+      </div>
+    </div>
+
+    <div class="split split-right">
+      <div class="content-col">
+        <div class="sh">
+          <div class="sh-bar"></div>
+          <h2>What can we do for you?<span>Industrial engineering · Services II</span></h2>
+        </div>
+
+        <span class="badge">Water, environment and safety</span>
+        <div class="sg">
+          <div class="si"><span class="arr">→</span>Supply and sanitation network projects</div>
+          <div class="si"><span class="arr">→</span>Wastewater treatment and purification</div>
+          <div class="si"><span class="arr">→</span>Water potabilization projects</div>
+          <div class="si"><span class="arr">→</span>Installations for potable water supply</div>
+          <div class="si"><span class="arr">→</span>Fire protection in industries and buildings</div>
+          <div class="si"><span class="arr">→</span>Safety and health studies · SS Plan</div>
+          <div class="si"><span class="arr">→</span>Acoustic studies</div>
+          <div class="si"><span class="arr">→</span>Cold storage plant and refrigeration installation projects</div>
+        </div>
+
+        <div class="div"></div>
+        <span class="badge">Special and hospital installations</span>
+        <div class="sg">
+          <div class="si"><span class="arr">→</span>Installation projects for hospital centers</div>
+          <div class="si"><span class="arr">→</span>Biological safety laboratory projects</div>
+          <div class="si"><span class="arr">→</span>Common telecommunications infrastructures (ICTs)</div>
+          <div class="si"><span class="arr">→</span>Tower crane installation projects</div>
+        </div>
+
+        <div class="div"></div>
+        <span class="badge">Expert reports, valuations and legalization</span>
+        <div class="sg">
+          <div class="si"><span class="arr">→</span>Preparation of bids and tenders (public and private)</div>
+          <div class="si"><span class="arr">→</span>Mobility, traffic and accessibility studies</div>
+          <div class="si"><span class="arr">→</span>Valuation of non‑residential properties</div>
+          <div class="si"><span class="arr">→</span>Damage assessment</div>
+          <div class="si"><span class="arr">→</span>Legalizations (non‑residential)</div>
+          <div class="si"><span class="arr">→</span>Expert reports (non‑residential construction)</div>
+          <div class="si"><span class="arr">→</span>Opening and activity legalization projects</div>
+          <div class="si"><span class="arr">→</span>Sports and educational infrastructure</div>
+        </div>
+      </div>
+
+      <div class="photo-strip">
+        <div class="ps-img" style="background-image:url('img/panel-control.jpg');"></div>
+        <div class="ps-img" style="background-image:url('img/climatizacion.jpg');"></div>
+        <div class="ps-img" style="background-image:url('img/herramientas.jpg');"></div>
+      </div>
+    </div>
+
+    <div class="pf">
+      <span>Ingeniería y Sistemas 2010 S.L. · Services Dossier</span>
+      <span><a href="https://www.ingenia2010.es">www.ingenia2010.es</a></span>
+    </div>
+  </div>
+</div>
+
+
+<!-- ══════════════════════════════════════════
+     PAGE 4 — PROJECTS I
+══════════════════════════════════════════ -->
+<div class="page">
+  <div class="inner">
+    <div class="ph">
+      <img src="img/logo.jpg" alt="Ingenia 2010">
+      <div class="ph-contact">
+        <strong>Málaga Branch</strong>
+        Andrés M. Medina Rodríguez · 📞 686 668 924 · ✉️ <a href="mailto:Andres.Medina.email@gmail.com">Andres.Medina.email@gmail.com</a>
+      </div>
+    </div>
+
+    <div class="split">
+      <div class="photo-strip">
+        <div class="ps-img" style="background-image:url('img/solar-eolica.jpg');"></div>
+        <div class="ps-img" style="background-image:url('img/grua-torre.jpg');"></div>
+        <div class="ps-img" style="background-image:url('img/tuberia-industrial.jpg');"></div>
+      </div>
+
+      <div class="content-col">
+        <div class="sh">
+          <div class="sh-bar"></div>
+          <h2>Reference projects<span>Selection of works carried out · I</span></h2>
+        </div>
+
+        <span class="badge">Electricity · Transformation · Networks</span>
+        <ul class="pl">
+          <li><span class="dot"></span>630 kVA transformer substation (CT) to supply power to a nursing home and parking in Jaén. Subsequent electrical installation of the geriatric building.</li>
+          <li><span class="dot"></span>250 kVA MV line and CT to supply a WWTP in Arjona (Eiffage Energía).</li>
+          <li><span class="dot"></span>Installation of underground MV line, CT and electrical panels for the AEAT delegation in Córdoba.</li>
+          <li><span class="dot"></span>Electrical installation and CT for the AEAT building in Jaén.</li>
+          <li><span class="dot"></span>CT for the AEAT delegation building in Almería.</li>
+          <li><span class="dot"></span>Underground MV line and CT of 250 kVA to supply a church in Andújar.</li>
+          <li><span class="dot"></span>Overhead MV line, CT and LV for a pumping station in Lopera.</li>
+          <li><span class="dot"></span>Increase of CT power no. 26703 "CDAT‑Espeluy" from 250 to 400 kVA (Eiffage Energía).</li>
+          <li><span class="dot"></span>Electrical installation for an autogas station in Jaén.</li>
+          <li><span class="dot"></span>New underground MV line CT1 "Pilotos" – CT2 "Cristales de Plástico" for Valeo Lighting in Martos.</li>
+        </ul>
+
+        <div class="div"></div>
+        <span class="badge" id="energia-solar">Photovoltaic solar energy</span>
+        <ul class="pl">
+          <li><span class="dot"></span>20 kW rooftop photovoltaic installation in La Carolina.</li>
+          <li><span class="dot"></span>20 kW grid‑connected rooftop photovoltaic installation in Jaén.</li>
+          <li><span class="dot"></span>20 kW grid‑connected photovoltaic installation in Jerez de la Frontera.</li>
+          <li><span class="dot"></span>20 kWp rooftop photovoltaic installation in a warehouse in Campillo de Arenas.</li>
+          <li><span class="dot"></span>20 kWp rooftop photovoltaic installation in a warehouse in Martos.</li>
+        </ul>
+
+        <div class="div"></div>
+        <span class="badge">Industrial · Agri‑food</span>
+        <ul class="pl">
+          <li><span class="dot"></span>Engineering development for the new Acesur olive mill, Jabalquinto. Jaén.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="pf">
+      <span>Ingeniería y Sistemas 2010 S.L. · Services Dossier</span>
+      <span><a href="https://www.ingenia2010.es">www.ingenia2010.es</a></span>
+    </div>
+  </div>
+</div>
+
+
+<!-- ══════════════════════════════════════════
+     PAGE 5 — PROJECTS II
+══════════════════════════════════════════ -->
+<div class="page">
+  <div class="inner">
+    <div class="ph">
+      <img src="img/logo.jpg" alt="Ingenia 2010">
+      <div class="ph-contact">
+        <strong>Málaga Branch</strong>
+        Andrés M. Medina Rodríguez · 📞 686 668 924 · ✉️ <a href="mailto:Andres.Medina.email@gmail.com">Andres.Medina.email@gmail.com</a>
+      </div>
+    </div>
+
+    <div class="split split-right">
+      <div class="content-col">
+        <div class="sh">
+          <div class="sh-bar"></div>
+          <h2>Reference projects<span>Selection of works carried out · II</span></h2>
+        </div>
+
+        <span class="badge">Building · Housing · Institutional</span><a class="badge-link" href="https://qaswed441.github.io/Fotovoltaica/" target="_blank">☀ Solar Energy · Ingenia 2010 · Jaén &amp; Málaga</a>
+        <ul class="pl">
+          <li><span class="dot"></span>Electrical project at San Juan Molier Institute in Equatorial Guinea.</li>
+          <li><span class="dot"></span>Execution project for 48 subsidized housing units (VPO), commercial premises, offices and parking in Jaén.</li>
+          <li><span class="dot"></span>Basic project for 28 triplex, 143 dwellings, commercial premises and parking in Roquetas de Mar.</li>
+          <li><span class="dot"></span>Electrical installation for 79 subsidized housing units in Jaén.</li>
+          <li><span class="dot"></span>Company headquarters in the GEOLIT technology park in Mengíbar (CT 630 kVA + underground MV line).</li>
+          <li><span class="dot"></span>Refurbishment of the electrical installation of the Flores de Lemus lecture building, University of Jaén.</li>
+          <li><span class="dot"></span>Comprehensive installation project for a laboratory building, University of Jaén.</li>
+          <li><span class="dot"></span>Refurbishment of the 6th floor of the Neurotraumatology Hospital in Jaén.</li>
+          <li><span class="dot"></span>Level 3 biological safety laboratory at the Medical‑Surgical Hospital of Jaén.</li>
+          <li><span class="dot"></span>LV installation and sectionalizing center for the High Resolution Hospital of Cazorla (SAS).</li>
+        </ul>
+
+        <div class="div"></div>
+        <span class="badge">HVAC · Gas · Special installations</span>
+        <ul class="pl">
+          <li><span class="dot"></span>Industrial frying plant warehouse: basic/execution project, self‑protection and propane installation.</li>
+          <li><span class="dot"></span>HVAC for a building intended as a social center in Beas de Segura.</li>
+          <li><span class="dot"></span>HVAC and technical management of the former courts in Cieza (Murcia).</li>
+          <li><span class="dot"></span>HVAC in El Pont de Suert (Lleida).</li>
+          <li><span class="dot"></span>1 MW biomass boiler for a Heineken plant in Jaén.</li>
+          <li><span class="dot"></span>Gas reception installation for a monastery and shelter center in Antequera.</li>
+        </ul>
+      </div>
+
+      <div class="photo-strip">
+        <div class="ps-img" style="background-image:url('img/instalacion-solar-tejado.jpg');"></div>
+        <div class="ps-img" style="background-image:url('img/recarga-electrica.jpg');"></div>
+        <div class="ps-img" style="background-image:url('img/edificio-cristal.jpg');"></div>
+      </div>
+    </div>
+
+    <div class="pf">
+      <span>Ingeniería y Sistemas 2010 S.L. · Services Dossier</span>
+      <span><a href="https://www.ingenia2010.es">www.ingenia2010.es</a></span>
+    </div>
+  </div>
+</div>
+
+
+<!-- ══════════════════════════════════════════
+     PAGE 6 — PROJECTS III + CLIENTS
+══════════════════════════════════════════ -->
+<div class="page">
+  <div class="inner">
+    <div class="ph">
+      <img src="img/logo.jpg" alt="Ingenia 2010">
+      <div class="ph-contact">
+        <strong>Málaga Branch</strong>
+        Andrés M. Medina Rodríguez · 📞 686 668 924 · ✉️ <a href="mailto:Andres.Medina.email@gmail.com">Andres.Medina.email@gmail.com</a>
+      </div>
+    </div>
+
+    <div class="split">
+      <div class="photo-strip">
+        <div class="ps-img" style="background-image:url('img/telecomunicaciones.jpg');"></div>
+        <div class="ps-img" style="background-image:url('img/multimetro.jpg');"></div>
+        <div class="ps-img" style="background-image:url('img/edificio-moderno.jpg');"></div>
+      </div>
+
+      <div class="content-col">
+        <div class="sh">
+          <div class="sh-bar"></div>
+          <h2>Reference projects<span>Selection of works carried out · III</span></h2>
+        </div>
+
+        <span class="badge">Electric charging · Mobility</span>
+        <ul class="pl">
+          <li><span class="dot"></span>Electric vehicle charging point at San Juan de Dios Hospital in Córdoba (Elecnor).</li>
+          <li><span class="dot"></span>Electric vehicle charging point on Ctra. Madrid, Bailén (Elecnor).</li>
+          <li><span class="dot"></span>Vehicle charging point in the TM industrial estate of Estepona (Elecnor).</li>
+        </ul>
+
+        <div class="div"></div>
+        <span class="badge">Telecommunications · ICT</span>
+        <ul class="pl">
+          <li><span class="dot"></span>ICT for a 26‑unit residential building in Fuengirola.</li>
+          <li><span class="dot"></span>ICT for 8 dwellings, storage rooms and parking in Jaén.</li>
+          <li><span class="dot"></span>ICT for a 43‑unit building in Ronda Juez Juan Ruiz Rico, Jaén.</li>
+        </ul>
+
+        <div class="div"></div>
+        <span class="badge">Notable recurring clients</span>
+        <div class="clients">
+          <div class="client"><strong>Eiffage Energía</strong><span>MV/LV networks · CT · Technical management</span></div>
+          <div class="client"><strong>Elecnor</strong><span>EV charging · MV lines</span></div>
+          <div class="client"><strong>AEAT · SAS</strong><span>Public buildings</span></div>
+          <div class="client"><strong>Valeo Lighting</strong><span>Electrical infrastructure</span></div>
+          <div class="client"><strong>University of Jaén</strong><span>Comprehensive installations</span></div>
+          <div class="client"><strong>Regional Hospitals</strong><span>Critical installations</span></div>
+        </div>
+
+        <div class="div"></div>
+        <span class="badge">Other notable projects</span>
+        <ul class="pl">
+          <li><span class="dot"></span>Industrial workshop for bodywork and paint.</li>
+          <li><span class="dot"></span>Efficiency, accessibility and installations improvement at the central police station in Granada.</li>
+          <li><span class="dot"></span>Exterior lighting at COAM, municipal facilities and the Church of San Antón in Madrid.</li>
+          <li><span class="dot"></span>Comprehensive installations for an oleotourism building in the TM of Pegalajar.</li>
+          <li><span class="dot"></span>Complete refurbishment of installations (electricity, HVAC, ventilation, data, fire protection) at the Jaén Diagnostic Center.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="pf">
+      <span>Ingeniería y Sistemas 2010 S.L. · Services Dossier</span>
+      <span><a href="https://www.ingenia2010.es">www.ingenia2010.es</a></span>
+    </div>
+  </div>
+</div>
+
+
+<!-- ══════════════════════════════════════════
+     PAGE 7 — CONTACT
+══════════════════════════════════════════ -->
+<div class="page">
+  <div class="inner">
+    <div class="ph">
+      <img src="img/logo.jpg" alt="Ingenia 2010">
+      <div class="ph-contact">
+        <strong>Málaga Branch</strong>
+        Andrés M. Medina Rodríguez · 📞 686 668 924 · ✉️ <a href="mailto:Andres.Medina.email@gmail.com">Andres.Medina.email@gmail.com</a>
+      </div>
+    </div>
+
+    <div class="split split-right">
+      <div class="content-col">
+        <div class="sh">
+          <div class="sh-bar"></div>
+          <h2>Ready to carry out your project?<span>Contact and branches</span></h2>
+        </div>
+
+        <div class="bt" style="margin-bottom:16px;">
+          <p>We are available to study your project without obligation. You can contact us directly through our Málaga branch or via the headquarters in Jaén.</p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="cc primary">
+            <div class="cc-head">Technical representative · Málaga</div>
+            <div class="cc-body">
+              <div class="cc-name">Andrés Manuel Medina Rodríguez</div>
+              <div class="cc-row"><span class="ic">📞</span> 686 668 924</div>
+              <div class="cc-row"><span class="ic">✉️</span> <a href="mailto:Andres.Medina.email@gmail.com">Andres.Medina.email@gmail.com</a></div>
+              <div class="cc-row"><span class="ic">📍</span>  Avenida de los Perales 8, Mijas, Málaga, Spain</div>
+            </div>
+          </div>
+          <div class="cc secondary">
+            <div class="cc-head">Headquarters · Jaén</div>
+            <div class="cc-body">
+              <div class="cc-name">Ingeniería y Sistemas 2010 S.L.</div>
+              <div class="cc-row"><span class="ic">📍</span> C/ Henry Dunant, 2 · 1º A · 23009 Jaén</div>
+              <div class="cc-row"><span class="ic">🌐</span> <a href="https://www.ingenia2010.es">www.ingenia2010.es</a></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="why-box">
+          <h3>Why work with Ingenia 2010?</h3>
+          <div class="why">
+            <div class="why-item"><span class="chk">✓</span> More than 10 years of experience in industrial engineering projects</div>
+            <div class="why-item"><span class="chk">✓</span> Multidisciplinary capability: electricity, gas, renewables, civil works</div>
+            <div class="why-item"><span class="chk">✓</span> Personalized attention to both companies and private clients</div>
+            <div class="why-item"><span class="chk">✓</span> Practical, efficient and cost‑aware technical solutions</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="photo-strip">
+        <div class="ps-img" style="background-image:url('img/instalacion-solar-tejado.jpg');"></div>
+        <div class="ps-img" style="background-image:url('img/recarga-electrica.jpg');"></div>
+        <div class="ps-img" style="background-image:url('img/edificio-cristal.jpg');"></div>
+      </div>
+    </div>
+
+    <div class="pf">
+      <span>Ingeniería y Sistemas 2010 S.L. · Services Dossier</span>
+      <span><a href="https://www.ingenia2010.es">www.ingenia2010.es</a></span>
+    </div>
+  </div>
+</div>
+<script>
+(function () {
+  const select = document.getElementById('langSelect');
+  if (!select) return;
+
+  // Detect current file name (last segment)
+  const current = location.pathname.split('/').pop().toLowerCase();
+
+  // Set initial select value depending on current file
+  if (current === 'ingenia2010_en_2.html' || current === 'ingenia2010_en.html') {
+    select.value = 'en';
+  } else {
+    select.value = 'es';
+  }
+
+  // Redirect on change, preserving query string and hash
+  select.addEventListener('change', function () {
+    const lang = this.value;
+    const qs = location.search || '';
+    const hash = location.hash || '';
+
+    if (lang === 'es') {
+      location.href = 'index.html' + qs + hash;
+    } else if (lang === 'en') {
+      location.href = 'Ingenia2010_EN_2.html' + qs + hash;
+    }
+  });
+})();
+</script>
+
+</body>
